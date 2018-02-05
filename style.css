@@ -1,6 +1,6 @@
 /* This is a style sheet */
 
-header {
+header, h1 {
 	font-family: "Avenir";
 	font-size: 20px;
 	text-align: center;
