@@ -1,9 +1,17 @@
 /* This is a style sheet */
 
-header, h1 {
+h1 {
 	font-family: "Avenir";
-	font-size: 50px;
+	font-size: 45px;
 	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+h2 {
+	font-family: "Avenir";
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
 }
 
 img {
@@ -13,7 +21,6 @@ img {
 	border-radius: 50%;
 }
 
-body {
-	font-family: "Avenir";
-	font-size: 20px;
+a {
+	text-decoration: none;
 }
