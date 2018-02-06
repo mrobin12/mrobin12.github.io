@@ -1,4 +1,4 @@
-/* This is a style sheet */
+/* This is a style sheet for index.html, bio.html*/
 
 h1 {
 	font-family: "Avenir";
@@ -11,13 +11,6 @@ h2 {
 	font-family: "Avenir";
 	text-align: center;
 	font-size: 30px;
-	text-decoration: none;
-}
-
-h3 {
-	font-family: "Avenir";
-	text-align: center;
-	font-size: 20px;
 	text-decoration: none;
 }
 
