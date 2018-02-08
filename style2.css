@@ -21,10 +21,22 @@ h3 {
 	text-decoration: none;
 }
 
-p {
+p, div {
 	font-family: "Avenir";
 	font-size: 20px;
 	text-align: justify;
-	margin-left: 70px;
-	margin-right: 70px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+li {
+	font-family: "Avenir";
+	font-size: 16px;
+	text-align: justify;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+ul {
+	list-style-type: none;
 }
