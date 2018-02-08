@@ -2,7 +2,7 @@
 
 h1 {
 	font-family: "Avenir";
-	font-size: 45px;
+	font-size: 30px;
 	text-align: center;
 	border-bottom: 1px solid black;
 }
@@ -10,13 +10,16 @@ h1 {
 h2 {
 	font-family: "Avenir";
 	text-align: left;
-	font-size: 25px;
-	text-decoration: none;
+	font-size: 20px;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
 #header {
 	font-family: "Avenir";
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	font-size: 25px;
 	text-decoration: none;
 }
@@ -36,15 +39,23 @@ p, div {
 	font-family: "Avenir";
 	font-size: 20px;
 	text-align: justify;
-	margin-left: 2%;
-	margin-right: 2%;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
 li {
 	font-family: "Avenir";
 	list-style-type: disc;
-	font-size: 16px;
+	font-size: 14px;
 	text-align: justify;
-	margin-left: 2%;
-	margin-right: 2%;
+}
+
+.education, .career, .skills {
+	list-style-type: none;
+	font-family: "Avenir";
+	font-size: 20px;
+	padding-bottom: 5px; 
+	text-align: justify;
+	margin-left: 1%;
+	margin-right: 1%;
 }
