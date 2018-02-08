@@ -25,18 +25,15 @@ p, div {
 	font-family: "Avenir";
 	font-size: 20px;
 	text-align: justify;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 li {
 	font-family: "Avenir";
+	list-style-type: disc;
 	font-size: 16px;
 	text-align: justify;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-ul {
-	list-style-type: none;
+	margin-left: 2%;
+	margin-right: 2%;
 }
