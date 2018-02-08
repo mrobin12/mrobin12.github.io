@@ -9,8 +9,15 @@ h1 {
 
 h2 {
 	font-family: "Avenir";
+	text-align: left;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+#header {
+	font-family: "Avenir";
 	text-align: center;
-	font-size: 30px;
+	font-size: 25px;
 	text-decoration: none;
 }
 
@@ -25,9 +32,18 @@ a {
 	text-decoration: none;
 }
 
-p {
+p, div {
 	font-family: "Avenir";
 	font-size: 20px;
+	text-align: justify;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+li {
+	font-family: "Avenir";
+	list-style-type: disc;
+	font-size: 16px;
 	text-align: justify;
 	margin-left: 2%;
 	margin-right: 2%;
