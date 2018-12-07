@@ -1,21 +1,53 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 
 	<head>
 		<title>Michael Robinson</title>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<link href="style.css" rel="stylesheet" />
 	</head>
 
 	<body>
-		<div id="app"></div>
-		<h1>Michael Robinson</h1>
-		<img src="mrobin.jpg" alt="Profile Pic" />
-		<h1 class="header">
-			<a href="bio.html" rel="next">Biography </a>
-		</h1>
-		<h1 class="header">
-			<a href="resume.html" rel="next"> Resume</a>
-		</h1>
+
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Michael Robinson</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="bio.html">ABOUT</a></li>
+						<li><a href="resume.html">RESUME</a></li>
+						<li><a href="#">OTHER</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container-fluid main text-center">
+			<!--<h2>Michael Robinson</h2>
+			<img src="mrobin.jpg" class="img-circle" alt="Profile Pic" />-->
+		</div>
+			  
+		<footer class="container-fluid site_footer text-center">
+			<div>
+				<!--<img href="github_icon.png">-->
+				<ul class="social-media-list">
+					<li>
+						<a href="https://github.com/mrobin12"></a>
+					</li>
+				</ul>
+			</div>
+		</footer>
 	</body>
 </html>
