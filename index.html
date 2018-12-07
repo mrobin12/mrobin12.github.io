@@ -13,30 +13,41 @@
 	</head>
 
 	<body>
-
-		<nav class="navbar navbar-default">
-			<div class="container">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">Michael Robinson</a>
+					</button>-->
+					<p class="navbar-brand">Michael Robinson</p>
 				</div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="bio.html">ABOUT</a></li>
+						<!--<li><a href="bio.html">ABOUT</a></li>
 						<li><a href="resume.html">RESUME</a></li>
-						<li><a href="#">OTHER</a></li>
+						<li><a href="#">OTHER</a></li>-->
+						<li><a><span class="glyphicon glyphicon-menu-hamburger"></span></a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 
 		<div class="container-fluid main text-center">
-			<!--<h2>Michael Robinson</h2>
-			<img src="mrobin.jpg" class="img-circle" alt="Profile Pic" />-->
+			<!--<h2>Michael Robinson</h2>-->
+			<!--<img src="mrobin.jpg" class="img-circle" alt="Profile Pic" /> -->
+			<div class="row">
+				<div class="col-sm-4">
+					<a href="bio.html">About</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="bio.html">Resume</a>
+				</div>
+				<div class="col-sm-4">
+					<a href="#">Other</a>
+				</div>
+			</div>
 		</div>
 			  
 		<footer class="container-fluid site_footer text-center">

@@ -1,27 +1,44 @@
-.main { 
-	background-color:  #474e5d; /* Green */
-	 color: #ffffff;
-}
 .container-fluid {
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 2px;
+	padding-bottom: 5px;
 }
+
+/* dark background, slightly see-through */
 .navbar {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	border: 0;
-	border-radius: 0;
 	margin-bottom: 0;
-	font-size: 12px;
-	letter-spacing: 5px;
+	background-color: #2d2d30;
+	border: 0;
+	font-size: 11px !important;
+	letter-spacing: 6px;
+	opacity: 0.9;
 }
-.navbar-nav li a:hover {
-	color: #1abc9c !important;
-}
+
+/* grey color to navbar links */
+/*.navbar-nav li a:hover {
+	color: #fff !important;
+} */
+
+/* On hover, the links will turn white */
+/*.navbar-nav li a:hover {
+    color: #fff !important;
+} */
+
+/* The active link */
+/*.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+} */
+
 .site_footer {
 	background-color: #ffffff;
 	color: #ffffff;
 }
+
+.main { 
+	background-color:  #474e5d; 
+	color: #ffffff;
+}
+
 body {
 	font: 18px "Montserrat", sans-serif;
 	line-height: 1.8;
@@ -30,4 +47,33 @@ body {
 
 p {
 	font-size: 16px;
+}
+
+.glyphicon {
+	font-size: 20px;
+}
+
+h2 {
+	padding: 80px 120px;
+	font-size: 40px;
+	color: #29292c;
+}
+
+.row {
+	padding: 80px 120px;
+	letter-spacing: 5px;
+	font-size: 35px;
+	color: #29292c;
+}
+
+.row a:hover {
+	color: #fff !important;
+}
+
+a {
+	color: #fff;
+}
+
+.navbar-brand {
+	font-size: 18px;
 }
