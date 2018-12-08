@@ -1,9 +1,17 @@
+body {
+	font: 18px "Montserrat", sans-serif;
+	line-height: 1.8;
+	opacity: 1;
+	transition: 1s opacity;
+	color: #f5f6f7;
+}
+
 .container-fluid {
 	padding-top: 2px;
 	padding-bottom: 5px;
+	letter-spacing: 7px;
 }
 
-/* dark background, slightly see-through */
 .navbar {
 	margin-bottom: 0;
 	background-color: #2d2d30;
@@ -13,22 +21,6 @@
 	opacity: 0.9;
 }
 
-/* grey color to navbar links */
-/*.navbar-nav li a:hover {
-	color: #fff !important;
-} */
-
-/* On hover, the links will turn white */
-/*.navbar-nav li a:hover {
-    color: #fff !important;
-} */
-
-/* The active link */
-/*.navbar-nav li.active a {
-    color: #fff !important;
-    background-color:#29292c !important;
-} */
-
 .site_footer {
 	background-color: #ffffff;
 	color: #ffffff;
@@ -37,16 +29,12 @@
 .main { 
 	background-color:  #474e5d; 
 	color: #ffffff;
+	letter-spacing: 7px;
 }
 
-body {
-	font: 18px "Montserrat", sans-serif;
-	line-height: 1.8;
-	color: #f5f6f7;
-}
-
-p {
-	font-size: 16px;
+body.fade-out {
+	opacity: 0;
+	transition: none;
 }
 
 .glyphicon {
@@ -56,6 +44,7 @@ p {
 h2 {
 	padding: 80px 120px;
 	font-size: 40px;
+	letter-spacing: 15px;
 	color: #29292c;
 }
 
