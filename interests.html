@@ -20,6 +20,30 @@
         <!-- MDB core JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/js/mdb.min.js"></script>
         <!--<link rel="stylesheet" src="style.css">-->
+        <style>
+            #test {
+                -webkit-animation: fadein 2s; /* Safari, Chrome */
+                -moz-animation: fadein 2s; /* Firefox < 16 */
+                        animation: fadein 2s;
+            }
+
+            @keyframes fadein {
+                from { opacity: 0; }
+                to   { opacity: 1; }
+            }
+
+            /* Firefox < 16 */
+            @-moz-keyframes fadein {
+                from { opacity: 0; }
+                to   { opacity: 1; }
+            }
+
+            /* Safari, Chrome and Opera > 12.1 */
+            @-webkit-keyframes fadein {
+                from { opacity: 0; }
+                to   { opacity: 1; }
+            }
+        </style>
 	</head>
 
     <body>
@@ -30,22 +54,22 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
+                        <a class="nav-link" href="https://mrobin12.github.io">Home</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="resume.html">Resume</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://github.com/mrobin12">Projects</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="interets.html">Interests</a>
-                    </li>
                 </ul>
             </div>
         </nav>
 
-        <div class="container-fluid" style="margin-top:150px; margin-bottom:50px">
+        <div class="container-fluid" id="test" style="margin-top:150px; margin-bottom:50px">
             <div class="wrapper fade-in" style="text-align:center">
                 <h1 style="letter-spacing:12px">Interests</h1>
-                <p style="letter-spacing:2px; margin-bottom:150px; margin-left:100px; margin-right:100px"></p>
+                <p style="letter-spacing:2px; margin-bottom:150px; margin-left:100px; margin-right:100px">Currently under construction...</p>
             </div>    
         </div>
 
