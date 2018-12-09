@@ -1,68 +1,7 @@
-body {
-	font: 18px "Montserrat", sans-serif;
-	line-height: 1.8;
-	opacity: 1;
-	transition: 1s opacity;
-	color: #f5f6f7;
+h1 {
+    font-style: bold;
 }
 
-.container-fluid {
-	padding-top: 2px;
-	padding-bottom: 5px;
-	letter-spacing: 7px;
-}
-
-.navbar {
-	margin-bottom: 0;
-	background-color: #2d2d30;
-	border: 0;
-	font-size: 11px !important;
-	letter-spacing: 6px;
-	opacity: 0.9;
-}
-
-.site_footer {
-	background-color: #ffffff;
-	color: #ffffff;
-}
-
-.main { 
-	background-color:  #474e5d; 
-	color: #ffffff;
-	letter-spacing: 7px;
-}
-
-body.fade-out {
-	opacity: 0;
-	transition: none;
-}
-
-.glyphicon {
-	font-size: 20px;
-}
-
-h2 {
-	padding: 80px 120px;
-	font-size: 40px;
-	letter-spacing: 15px;
-	color: #29292c;
-}
-
-.row {
-	padding: 80px 120px;
-	letter-spacing: 5px;
-	font-size: 35px;
-	color: #29292c;
-}
-
-.row a:hover {
-	color: #fff !important;
-}
-
-a {
-	color: #fff;
-}
-
-.navbar-brand {
-	font-size: 18px;
+p {
+    letter-spacing: 0;
 }
