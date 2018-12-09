@@ -1,66 +1,74 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
 	<head>
 		<title>Michael Robinson</title>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link href="style.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/css/mdb.min.css" rel="stylesheet">
+        <!-- JQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/js/mdb.min.js"></script>
 	</head>
 
 	<body>
-		<!-- line below is supposed to allow fade-in load -->
-		<script>document.body.className += ' fade-out';</script>
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>-->
-					<!--<p class="navbar-brand">Michael Robinson</p>-->
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav navbar-right">
-						<!--<li><a href="bio.html">ABOUT</a></li>
-						<li><a href="resume.html">RESUME</a></li>
-						<li><a href="#">OTHER</a></li>-->
-						<li><a><span class="glyphicon glyphicon-menu-hamburger"></span></a></li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-
-		<div class="container-fluid main text-center">
-			<h2>Michael Robinson</h2>
-			<!--<img src="mrobin.jpg" class="img-circle" alt="Profile Pic" /> -->
-			<div class="row">
-				<div class="col-sm-4">
-					<a href="bio.html">About</a>
-				</div>
-				<div class="col-sm-4">
-					<a href="bio.html">Resume</a>
-				</div>
-				<div class="col-sm-4">
-					<a href="#">Other</a>
-				</div>
-			</div>
-		</div>
-			  
-		<!--<footer class="container-fluid site_footer text-center">
-			<div>
-				<img href="github_icon.png">
-				<ul class="social-media-list">
-					<li>
-						<a href="https://github.com/mrobin12"></a>
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<!--<li class="nav-item">
+						<a class="nav-link" href="bio.html">About</a>
+					</li>-->
+					<li class="nav-item">
+						<a class="nav-link" href="resume.html">Resume</a>
 					</li>
+					<li class="nav-item">
+							<a class="nav-link" href="#">Projects</a>
+						</li>
+					<li class="nav-item">
+						<a class="nav-link" href="http://365daysofsolitude.blogspot.com/">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="http://robin411989.wixsite.com/mrphotography">Photography</a>
+					</li>    
 				</ul>
 			</div>
-		</footer>-->
-	</body>
+        </nav>
+        
+		<div class="container-fluid" style="margin-top:50px; margin-bottom:50px">
+            <div class="wrapper fade-in" style="text-align:center; letter-spacing: 12px">
+                <h1>Michael Robinson</h1>
+                <p></p>
+            </div>    
+        </div>
+
+        <footer class="page-footer font-small bg-dark darken-3 fixed-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 py-5">
+                        <div class="mb-5 flex-center">
+                            <a class="li-ic" href="https://github.com/mrobin12">
+                                <i class="fa fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                            <a class="li-ic" href="https://www.linkedin.com/in/michael-robinson-b5310276">
+                                <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
